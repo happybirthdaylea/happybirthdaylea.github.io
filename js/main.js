@@ -6,9 +6,11 @@ $("#unlockDiv").click(function(){
 $("#loginButton").click(function(){
   if($("#password").val() == "532"){
     $("#password").val("");
-    $("#loginForm").hide();
+    hideAllForms();
+    $("#unlockDiv").hide();
     $("#indexPage").css("display", "flex");
     $("#birthdayLetterDiv").css("display", "flex");
+    $("#imagesDiv").css("display", "flex");
   }
 });
 
@@ -25,4 +27,10 @@ function hideAllForms(){
   $("#indexPage").hide();
   $("#loginForm").hide();
   $("#birthdayLetterForm").hide();
+  $("#imagesForm").hide();
 }
+
+$("#imagesDiv").click(function(){
+  hideAllForms();
+  $("#imagesForm").css("display", "flex");
+});
