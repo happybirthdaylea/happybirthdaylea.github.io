@@ -33,6 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
+    cursor: pointer;
 }
 
 .title{
@@ -130,4 +131,69 @@ body{
       max-width: 30vw;
   }
 
+}
+
+.menuContainer{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#unlockDiv{
+    font-size: 3vh;
+    height: 100%;
+    width: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: dimgray;
+  }
+#unlockDiv:hover {
+    background-color: lightgrey;
+}
+
+#loginForm{
+  display: none;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+}
+#birthdayLetterForm{
+  display: none;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+#indexPage{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#birthdayLetterDiv{
+    display: none;
+    font-size: 3vh;
+    height: 100%;
+    width: 9vh;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: dimgray;
+}
+#birthdayLetterDiv:hover {
+  background-color: lightgrey;
+}
+
+#birthdayLetterForm>h2{
+  font-size: 3vh;
+}
+
+#birthdayLetterForm>p{
+  font-size: 2vh;
 }
