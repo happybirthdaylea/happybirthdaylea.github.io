@@ -22,10 +22,12 @@ body{
     padding: 30px;
 }
 .footer{
-    flex-basis: 100px;
+    flex-basis: 50px;
     display: flex;
-    max-height: 100px;
+    max-height: 50px;
     background-image: linear-gradient(to bottom, #f8f1f1, #fafafa );
+    justify-content: center;
+    align-items: center;
 }
 
 .titleContainer{
