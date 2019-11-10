@@ -88,4 +88,46 @@ body{
 #birthdaymessage{
     display: flex;
     justify-content: center;
+    font-size: 3vh;
+}
+
+
+@media (max-width: 1476px) {
+
+  #birthdaymessage{
+      display: flex;
+      justify-content: center;
+      font-size: 2.5vh;
+  }
+}
+
+
+@media (max-width: 1238px) {
+
+  #birthdaymessage{
+      display: flex;
+      justify-content: center;
+      font-size: 2vh;
+  }
+}
+
+@media (max-width: 800px) {
+
+  #birthdaymessage{
+      display: flex;
+      justify-content: center;
+      font-size: 2vh;
+  }
+}
+@media (max-width: 624px) {
+
+    #birthdaymessage{
+        display: flex;
+        justify-content: center;
+        font-size: 1vh;
+    }
+  #birthdaytext{
+      max-width: 30vw;
+  }
+
 }
