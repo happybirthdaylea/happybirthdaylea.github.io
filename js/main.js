@@ -21,6 +21,7 @@ $(".titleContainer").click(function(){
 $("#birthdayLetterDiv").click(function(){
   hideAllForms();
   $("#birthdayLetterForm").css("display", "flex");
+  $("#birthdayLetterDiv").removeClass("glowing");
 });
 
 function hideAllForms(){
@@ -33,4 +34,5 @@ function hideAllForms(){
 $("#imagesDiv").click(function(){
   hideAllForms();
   $("#imagesForm").css("display", "flex");
+  $("#imagesDiv").removeClass("glowing");
 });

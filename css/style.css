@@ -258,3 +258,13 @@ body{
     border-radius: 20px;
     box-shadow: 1px 5px 5px #aaa;
 }
+
+@keyframes glowing {
+  0% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+  50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+}
+
+.glowing {
+  animation: glowing 1500ms infinite;
+}
